@@ -1,0 +1,36 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+title: "{{HOMEPAGE_VAR_TITLE}}"
+
+background: 
+  image: /images/background.jpg
+  blur: sm #
+  saturate: 100 #
+  brightness: 50 #
+  opacity: 50 #
+
+theme: dark
+color: slate
+
+# Need to look at this
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+
+layout:
+  Services:
+    style: row
+    #columns: 1
+  Social:
+    style: row
+    columns: 2
+  Entertainment:
+    style: row
+    columns: 2
+  Other:
+    style: row
+    columns: 2
+

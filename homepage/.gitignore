@@ -1,0 +1,6 @@
+assets/*
+!assets/.gitkeep
+custom.css
+custom.js
+docker.yaml
+kubernetes.yaml
