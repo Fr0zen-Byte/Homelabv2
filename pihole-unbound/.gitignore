@@ -1,0 +1,6 @@
+etc/*/*
+!etc/*/.gitkeep
+root/*
+!root/.gitkeep
+logs/*
+!logs/.gitkeep
