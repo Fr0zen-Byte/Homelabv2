@@ -36,7 +36,7 @@
         widget:
           type: portainer
           url: "{{HOMEPAGE_VAR_PORTAINER_IP}}"
-          env: 2
+          env: 3
           key: "{{HOMEPAGE_VAR_PORTAINER_API_KEY}}"
     
     - Traefik:
